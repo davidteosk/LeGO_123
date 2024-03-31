@@ -11,6 +11,7 @@ Launcher: Steam (Runtime)
 [Steam Gaming 101](https://github.com/davidteosk/LeGO_123/blob/main/gaming_fix_101.txt)
 - How to Create an External Steam Storage Partition.
 - Runs Games in Gamescope to prevent Alt-Tab Crashing or loosing Cursor or Wayland Crashing or Lossing Audio.
+  '''gamescope -h 1080 -f -e -r 90 -- %command%'''
 - Fix eGPU HDMI Audio Shuttering, lag, breaking noise, etc.
 - besides this fix, you may also need the below HDMI audio fix via module parameters:-
 
