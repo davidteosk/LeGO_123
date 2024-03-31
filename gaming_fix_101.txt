@@ -1,0 +1,31 @@
+Quick Tips in Desktop Gaming with Steam (runtime) Desktop version
+1. External Storage for Steam Games
+    alway use EXT4 partion mount to /run/media/deck/STEAMGAME
+    * wierd issues "may" happen if you use NTFS or other filesystem. example: Games does not run!!
+2. Always use this options to all games. Run game in gamescope.
+   -> click the game you wish to run in the library. click the Gear icon to manage game -> click properties -> enter this into the launch options. gamescope -h 1080 -f -e -r 90 -- %command%
+   1080 is the height of the game, i.e. 1920x1080 or 1080p. -f is fullscreen. 90 is the max fps.
+3. Major Audio (pipewire) fix for HDMI audio output. There is no issue with Speaker output. Shuttering, Audio lag, Noise, etc...
+   -> To fixed this one or two of the following solution may helps. I cannot be gurantee but my tedious test shows that it helps with my HDMI audio out via OneXGPU. It may happen also on other eGPU HDMI out.
+   -> Fixed 1. Disable system76.schgeduler services.
+   run this in terminal:
+   systemctl mask com.system76.Scheduler.service
+   systemctl stop com.system76.Scheduler.service
+   reboot
+
+   #In case you wish to enable back, just do the opposite.
+   -> systemctl unmask com.system76.Scheduler.service
+   systemctl start com.system76.Scheduler.service
+   reboot
+
+   -> Fixed 2. Modify pipewire.conf for improved quantum clock value.
+      default.clock.quantum       = 1024
+      default.clock.min-quantum   = 512
+      default.clock.max-quantum   = 2048
+
+   -> cd ~/.config/pipewire/
+      sudo cp /usr/share/pipewire/pipewire.conf .
+      sudo nano pipewire.conf
+      *remove the hash from the above specific command and change its value accordingly.
+      ctl+x and s to save the file.
+      reboot
