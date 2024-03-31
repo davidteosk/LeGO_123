@@ -8,7 +8,7 @@ Device: Legion Go 16GB 2TB storage. (igpu=AMD 780m Graphics)
 eGPU: ONEXGPU (dgpu=AMD 7600m XT)
 Launcher: Steam (Runtime)
 
-#ALL FIXES ARE SOLELY FOR BAZZITE OS ONLY.
+# ALL FIXES ARE SOLELY FOR BAZZITE OS ONLY.
 if you distro does not have any similar symptoms, then this fixes are not necessary.
 
 [Steam Gaming 101](https://github.com/davidteosk/LeGO_123/blob/main/gaming_fix_101.txt)
