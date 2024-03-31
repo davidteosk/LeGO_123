@@ -14,6 +14,7 @@ Quick Tips in Desktop Gaming with Steam (runtime) Desktop version
    -> reboot and your partition should auto mount in the next boot.
    -> if it does not mount, seach for the application "Removable Device" and run it.
    -> Click tick on All known devices -> On Login and On Attach
+   -> Run Steam -> Setting -> Storage -> Add Disk -> You should see your partition shown here. Select it to use as a steam game storage.
 
 2. Always use this options to all games. Run game in gamescope.
    -> click the game you wish to run in the library. click the Gear icon to manage game -> click properties -> enter this into the launch options. gamescope -h 1080 -f -e -r 90 -- %command%
