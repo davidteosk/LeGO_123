@@ -2,6 +2,17 @@ Quick Tips in Desktop Gaming with Steam (runtime) Desktop version
 1. External Storage for Steam Games
     alway use EXT4 partion mount to /run/media/deck/STEAMGAME
     * wierd issues "may" happen if you use NTFS or other filesystem. example: Games does not run!!
+   -> if you wish to create addition partition just for STEAM GAME storage, you can do so with EXT4 storage type.
+   -> run KDE partition Manager
+   -> create your partition as EXT4 type with whatever size you have.
+   -> click apply (tick on the top of KDE partition manager.
+   -> edit mount point for this partition as /run/media/deck/STEAMGAME   where deck is actually your login user name.
+      if you cannot mount, you need to create the STEAMGAME folder first
+      under terminal:  sudo mkdir /run/media/deck/STEAMGAME
+   -> mount your partition again.
+   -> reboot and your partition should auto mount in the next boot.
+   -> if it does not mount, seach for the application "Removable Device" and run it.
+   -> Click tick on All known devices -> On Login and On Attach
 2. Always use this options to all games. Run game in gamescope.
    -> click the game you wish to run in the library. click the Gear icon to manage game -> click properties -> enter this into the launch options. gamescope -h 1080 -f -e -r 90 -- %command%
    1080 is the height of the game, i.e. 1920x1080 or 1080p. -f is fullscreen. 90 is the max fps.
