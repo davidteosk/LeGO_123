@@ -4,7 +4,8 @@ Using Legion Go Guides 123
 #Intro
 This document serves to provide information, workarounds, Tips and tricks to Gaming Specific on Legion Go.
 OS: Bazzite OS
-Device: Legion Go 16GB 2TB storage.
+Device: Legion Go 16GB 2TB storage. (igpu=AMD 780m Graphics)
+eGPU: ONEXGPU (dgpu=AMD 7600m XT)
 Launcher: Steam (Runtime)
 
 [Steam Gaming 101](https://github.com/davidteosk/LeGO_123/blob/main/gaming_fix_101.txt)
