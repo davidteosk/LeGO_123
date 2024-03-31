@@ -1,5 +1,10 @@
 #!/usr/bin/bash
 
+if [ "$(id -u)" -ne 0 ]; then
+    echo "This script must be run as root, use sudo" >&2
+    exit 1
+fi
+
 echo "Fixing EGPU SPEED"
 # add egpu-pcie3speed.conf to /etc/modprobe.d/
 sudo cat <<EOF > "/etc/modprobe.d/egpu-pcie3speed.conf"
