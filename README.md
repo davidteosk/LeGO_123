@@ -12,7 +12,7 @@ Launcher: Steam (Runtime)
 - How to Create an External Steam Storage Partition.
 - Running Games in Gamescope to prevent Alt-Tab Crashing or loosing Cursor or Wayland Crashing or Lossing Audio.
 - Fix eGPU HDMI Audio Shuttering, lag, breaking noise, etc.
-- besides this fix, you may also need the below HDMI audia fix via module parameters:-
+- besides this fix, you may also need the below HDMI audio fix via module parameters:-
 
 # Forcing eGPU thunderbold speed to 8GBPS (PCIe 3.0 spec) to increase game GPS and Fixing HDMI Audio shuttering/lagging/breaking noise.
 read this note for [more info](https://github.com/davidteosk/LeGO_123/blob/main/egpu-pcie3speed.conf)
