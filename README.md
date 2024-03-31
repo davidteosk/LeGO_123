@@ -21,3 +21,6 @@ run this script with sudo [Fixing EGPUSPEED and HDMI AUDIO](https://github.com/d
 - run the script with:
 - ```sudo ./FIXED_EGUPSPEED_HDMIAUDIO.sh```
 - enter your password
+
+# Steam INSTALL cannot be click
+reason: you need to enable the game compatibility to a PROTON version via Gear icon (Manage game) -> Compability -> Select a proton version.
