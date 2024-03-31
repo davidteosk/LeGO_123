@@ -15,5 +15,5 @@ Launcher: Steam (Runtime)
 # Forcing eGPU thunderbold speed to 8GBPS (PCIe 3.0 spec) to increase game GPS and Fixing HDMI Audio shuttering/lagging/breaking noise.
 read this note for [more info](url)
 run this script with sudo [Fixing EGPUSPEED and HDMI AUDIO](https://github.com/davidteosk/LeGO_123/blob/main/FIXED_EGPUSPEED_HDMIAUDIO.sh)
-- download the raw file and enable excutable via dolphine. run the script with"
+- download the raw file and enable excutable via dolphin. run the script with:
 - ```sudo ./FIXED_EGUPSPEED_HDMIAUDIO.sh```
