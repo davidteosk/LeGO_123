@@ -20,3 +20,4 @@ run this script with sudo [Fixing EGPUSPEED and HDMI AUDIO](https://github.com/d
 - download the raw file and enable excutable via dolphin. (Check the Properties of the script file, Permission->Is Executable (check)
 - run the script with:
 - ```sudo ./FIXED_EGUPSPEED_HDMIAUDIO.sh```
+- enter your password
