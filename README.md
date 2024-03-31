@@ -7,3 +7,4 @@ OS: Bazzite OS
 Device: Legion Go 16GB 2TB storage.
 Launcher: Steam (Runtime)
 
+[Steam Gaming 101](https://github.com/davidteosk/LeGO_123/blob/main/gaming_fix_101.txt)
